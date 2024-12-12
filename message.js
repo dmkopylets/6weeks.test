@@ -28,7 +28,7 @@ function validateEmail(email) {
 
 function sendEmail(name, email, message, myEMailJSServiceId, myEMailJSTemplateId) {
     const templateParams = {
-        to_email: 'dkop@ukr.net',
+        to_email: '6weeks.12h@gmail.com',
         from_name: name || 'Anonymous',
         from_email: email,
         message_body: message || 'No message provided',
